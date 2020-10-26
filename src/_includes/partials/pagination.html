@@ -1,5 +1,5 @@
 {% if pagination.href.next or pagination.href.previous %}
-      <nav>
+      <nav class="pagination">
         {% if pagination.href.previous %}
           <a href="{{ pagination.href.previous }}">
             <span>{{ paginationPrevText if paginationPrevText else 'Previous' }}</span>

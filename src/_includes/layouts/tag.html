@@ -6,7 +6,7 @@
 {% block content %}
     	<h2>{{ title }}</h2>
 			{{ content | safe }}
-			<ul class="blog">
+			<ul class="postlist">
 		  	{% for item in postListItems %}
 		    <li>
 		    	<a href="{{ item.url }}">{{ item.data.title }}</a>
