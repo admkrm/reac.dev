@@ -8,16 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/admkrm/afec-eigensite-1.git"
+    "url": "git+https://github.com/admkrm/reac.dev.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/admkrm/afec-eigensite-1/issues"
+    "url": "https://github.com/admkrm/reac.dev/issues"
   },
-  "homepage": "https://github.com/admkrm/afec-eigensite-1#readme",
+  "homepage": "https://github.com/admkrm/reac.dev#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
   }
 }
